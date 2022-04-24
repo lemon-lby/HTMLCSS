@@ -1,0 +1,83 @@
+ /* *{
+    color: red;
+}  */
+
+/* 选中所有具有href属性的元素 */
+/* [href]{
+    color: red;
+}  */
+
+
+ /* [href="https://www.baidu.com/"]{
+    color: red;
+}  */
+
+ /* [href$="https://www.bilibili.com"]{
+    color: blue;
+} */
+
+
+/* [class~="b"]{
+    color: green; 
+} 
+ [class*="b"]{
+    color: red;
+}  */
+
+
+
+
+/* 伪类选择器 */
+
+/* 选中鼠标悬停时的a元素 */
+/* a:hover{
+    color: red;
+} */
+
+/* 送鼠标按下时的a元素 */
+/* a:active{
+    color: #008c8c;
+} */
+
+/* 超链接访问与未访问的状态 */
+/* a:link{
+    color: darkgreen;
+}
+
+a:visited{
+    color:red
+} */
+
+
+
+
+
+/* 伪元素选择器 */
+/* 
+span::before{
+    content:"《";
+    color:red;
+}
+
+span::after{
+    content:"》";
+    color:red;
+}
+ */
+
+
+ /* 组合 */
+
+ p{
+     line-height: 2;
+     text-indent: 2em;
+ }
+
+ p.red {
+     color: red;
+ }
+
+/* 语法糖 */
+ .blue li,p,div{
+     color: #008c8c;
+ }

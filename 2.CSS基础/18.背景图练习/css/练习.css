@@ -1,0 +1,45 @@
+body{
+    background: url("./../img/banner.jpeg") no-repeat 0 0/100% ;
+}
+
+.header{
+    width: 1497px;
+    height: 92px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    margin-top: 55px;
+    background: url("./../img/banner2.jpeg") no-repeat 0 0/100%;
+    position: relative;
+}
+.header .nav{
+    background:url("./../img/banner3.png") no-repeat 0 0/100%;
+}
+.header .nav a{
+    float: left;
+    height: 92px;
+    line-height: 92px;
+    width: 199px;
+    text-align: center;
+    color: #f8b700;
+    border: 1px solid #3f2a22;
+    box-sizing: border-box;
+    margin: auto;
+}
+.header .nav a:nth-child(3){
+    margin-right: 303px;
+}
+
+.header .logo{
+    width: 298px;
+    height: 149px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -47px;
+    background: url("./../img/banner2.jpeg");
+}
+
+.header .logo h1{
+    display: none;
+}

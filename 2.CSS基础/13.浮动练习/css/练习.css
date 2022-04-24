@@ -1,0 +1,90 @@
+nav{
+    background-color:#47464a ;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav a{
+    color:#999 ;
+    margin:0 38px ;
+    line-height: 60px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: white;
+}
+nav a.select{
+    color: #ef4238;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1120px;
+}
+.container .menu{
+    border:1px solid #e5e5e5 ;
+    margin: 40px 0;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 30px;
+}
+
+.container .menu div h2{
+    font-size: 14px;
+    color:#999;
+    margin:1em 20px;
+    float: left;
+
+}
+.container .menu div ul{
+    border: 1px solid #e5e5e5;
+    
+}
+.container .menu div ul li{
+    float: left;
+    margin: 0 9px;
+    line-height: 55px;
+    padding: 0 6px;
+}
+.container .menu div ul li a:hover{
+    color: #ef4238;
+}
+.container .menu div ul li.select{
+    background: #ef4238;
+    color: #fff;
+    /*  css3 圆角边框 */
+    border-radius: 15px;
+
+}
+
+
+
+.container .movies .movie-item{
+    float:left;
+    margin: 0 10px;
+}
+.container .movies .movie-item .pos a img{
+    width: 160px;
+    height: 220px;
+
+}
+.container .movies .movie-item:nth-child(6n){
+    margin-right: 0;
+}
+
+.container .movies .movie-item .name a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+}
+.container .movies .movie-item .score {
+    color: #ffb400;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic
+}
+.container .movies .movie-item .score::first-letter{
+    font-size: 1.5em;
+}

@@ -1,0 +1,75 @@
+.header{
+    width: 520px;
+    height: 304px;
+    margin: 0 auto ;
+    overflow: hidden;
+    position: relative;
+}
+.header .imgs{
+    width: 1560px;
+}
+.header .imgs>a{
+    float: left;
+}
+.header .imgs img{
+    width: 520px;
+    height: 304px;
+}
+
+.header .left,.header .right{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 3em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.header .left{
+    left: 20px;
+}
+.header .right{
+    right: 20px;
+}
+
+.header .left:hover,.header .right:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.header .modal{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.header .modal .title{
+    float:left;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+.header .modal .dots{
+    float:right;
+}
+
+.header .modal .dots>div{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    float: left;
+    margin: 11px 2px;
+    border-radius: 50%;
+}
+.header .modal .dots>div:hover{
+    background-color: lightblue;
+}

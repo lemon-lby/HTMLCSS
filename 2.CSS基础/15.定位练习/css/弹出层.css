@@ -1,0 +1,46 @@
+.main>img{
+    width: 100%;
+}
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; 
+    background-color: rgba(0,0,0,.5);
+}
+
+.modal .container{
+    position:absolute;
+    width: 404px;
+    height: 512px;
+    background-color: white;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.modal .container .close{
+    width: 30px;
+    height: 30px;    
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 3em;
+    font-weight: bold;
+
+    color: black;
+    /* 图标 手 */
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: #4d4a40;
+    padding: 20px 0;
+    line-height: 2 ;
+}
+
+article{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+article header{
+    background-color: #267890;
+    border: 5px solid #14414e;
+    text-align: center;
+    margin: 0 -34px;
+}
+
+article header h1{
+    font-size: 42px;
+    color:#fff
+}
+article header .title{
+    color:#dbdbdb; 
+    padding-bottom: 20px;
+
+}
+article header .title a:hover{
+    color: #fff;
+}
+article header .title a{
+    text-decoration: underline;
+}
+
+article .target{
+    margin-top: 30px;
+
+}

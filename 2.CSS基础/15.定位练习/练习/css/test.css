@@ -1,0 +1,67 @@
+.header{
+    background-color: #999;
+    height: 40px;
+    line-height: 40px;
+}
+.header .topnav>li{
+    float: left;
+    width: 100px;
+    margin: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 40px;
+    position: relative;
+}
+
+.header .topnav>li:hover{
+    background-color: white;
+    border: 2px solid lightblue;
+    border-bottom: none;
+    line-height: 36px;
+}
+
+.header .topnav>li .submenu{
+    border: 2px solid lightblue;
+    text-align: left;
+    width: 250px;
+    display: none;
+    position: absolute;
+    right: -3px;
+}
+
+.header .topnav>li:hover .submenu{
+    display: block;
+}
+
+.header .topnav>li:hover::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:  0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.modal .main{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

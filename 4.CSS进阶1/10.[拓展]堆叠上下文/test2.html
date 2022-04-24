@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: lightblue;
+        }
+        .container{
+            background-color: #008c8c;
+            width: 200px;
+            height: 200px;
+            position:relative;
+            z-index: 0;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position:absolute;
+            z-index: -1;
+            left: -20px;
+            top: -20px;
+        }
+        .normal{
+            width: 200px;
+            height: 200px;
+        background-color: black;
+        }
+        .float{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque odio magni doloribus sapiente, provident, vero iure laboriosam minima incidunt veritatis error ipsum quis accusamus porro voluptatem? Veritatis recusandae error, repellendus nam ipsam iusto rerum quasi nihil illum atque aspernatur praesentium ea ex aliquid molestias possimus itaque expedita enim! Culpa eos quae quidem voluptatem dicta accusamus ex enim nulla officiis ad ipsam magnam pariatur molestias reprehenderit unde animi qui, commodi voluptate? Veniam, fugit maxime nam in voluptates vero optio odio nulla illo quaerat ea ut placeat possimus atque laudantium sed aperiam excepturi dolorum omnis quos impedit fuga. Earum laboriosam omnis sed.</p>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item" style="background-color: chartreuse;left: -40px;top: -40px;"></div>
+    </div>
+    <div class="normal"></div>
+    <div class="float"></div>
+</body>
+</html>

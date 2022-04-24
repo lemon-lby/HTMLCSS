@@ -1,0 +1,612 @@
+@import "reset.css";
+@import "common.css";
+
+
+.header{
+    height: 154px;
+}
+.header .logo{
+    height: 45px;
+    background-color: #edf4ec; 
+}
+.header .logo h1{
+    display: none;
+}
+.header .logo img{
+    margin-top: 7px;
+    margin-left: 17px;   
+}
+
+
+
+
+
+
+
+
+
+.header .container{
+    height: 109px;
+    padding-top: 37px;
+}
+.header .container .menu{
+    width: 1130px;
+    background-color:#fff;
+    margin: 0 auto;
+    position: relative;
+
+}
+.header .container .menu .page{
+    float: left;
+}
+.header .container .menu .page a{
+    width: 89px;
+    height: 30px;
+    display: block;
+    background: url("./../img/sitename.png") no-repeat 0 0/100% 100%;
+}
+.header .container .menu .page a span{
+    display: none;
+}
+
+
+
+.header .container .search{
+    float: left;
+    margin-left: 36px;
+    position: relative;
+} 
+.header .container .search input{
+    border: 1px solid black;
+    height: 38px;
+    width: 340px;
+}
+.header .container .search .icon-fangdajing{
+    position: absolute;
+    right: 12px;
+    top: 11px;
+}
+
+
+
+
+.header .container .choose{
+    float: right;
+    padding-right: 46px;
+
+}
+.header .container .menu .choose a{
+    background-image: url("./../img/anony_nav_logo.png");
+    width: 50px;
+    height: 20px;
+    padding-right: 10px;
+    float: left;
+}
+.header .container .menu .choose a:nth-child(8){
+    padding-right: 0;
+}
+.header .container .menu .choose .book{
+    background-position: 0 0;
+}
+.header .container .menu .choose .movie{
+    background-position: -60px 0;
+}
+.header .container .menu .choose .music{
+    background-position: -120px 0;
+}
+.header .container .menu .choose .same{
+    background-position: -180px 0;
+}
+.header .container .menu .choose .group{
+    background-position: -240px 0;
+}
+.header .container .menu .choose .read{
+    background-position: -300px 0;
+}
+.header .container .menu .choose .FM{
+    background-position: -360px 0;
+}
+.header .container .menu .choose .time{
+    background-position: -413px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.log{
+    background: url("./../img/logback.jpg") no-repeat 30px 0/auto 100%;
+    background-color: #edf4ed;
+    height: 380px;
+}
+.log .container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.log .mid{
+    float: right;
+    height: 380px;
+    padding-right: 98px;
+    position: relative;
+}
+.log .mid h3{
+    font-size: 25px;
+    margin-top: 125px;
+}
+.log .mid .download{
+    background: #00B51D;
+    color:#fff;
+    height: 38px;
+    /* width: 144px; */
+    border-radius: 2px;
+    margin-top: 32px;
+    padding: 13px 26px;
+    box-sizing: border-box;
+}
+.log .mid .icon-ico{
+    height: 38px;
+    font-size: 38px;
+    position: absolute;
+    left: 146px;
+    top: 183px;
+}
+.log .mid .erweima{
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    top: 190px;
+    display: none;
+}
+.log .mid .test:hover .erweima{
+    display: block;
+
+}
+.log .mid .erweima .icon-erweima{
+    font-size: 200px;
+    margin: 25px;
+}
+.log .mid .erweima span{
+    text-align: center;
+    display: block;
+}
+
+
+/* 登陆表单 */
+
+.log .container .right{
+    height: 380px;
+    float: right;
+
+}
+
+.log .container .right .option{
+    height: 35px;
+    margin-top: 34px;
+}
+.log .container .right .option1{
+    line-height: 35px;
+}
+.log .container .right .option1 .log1{
+    height: 35px;
+    width: 174px;
+    color: #9b9b9b;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+}
+.log .container .right .option1 .log1:focus{
+    border-bottom: 1px solid #494949;
+    font-weight: bold;
+    color: #333;
+}
+.log .container .right .option1 .log2{
+    height: 35px;
+    width: 174px;
+    color: #9b9b9b;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+}
+.log .container .right .option1 .log2:focus{
+    border-bottom: 1px solid #494949;
+    font-weight: bold;
+    color: #333;
+}
+
+.log .container .right .read{
+    color: #9b9b9b; 
+    margin: 18px 0;
+}
+.log .container .right .read a{
+    color: #41ac52;;
+}
+
+.log .container .phnum{
+    height: 40px;
+   
+}
+.log .container .phnum .left{
+    float: left;
+    border: 1px solid rgb(228, 230, 229);
+}
+.log .container .phnum .left .area{
+    width: 61px;
+    background-color: white;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+.log .container .phnum .left .check{
+    height: 279px;
+    width: 353px;
+    border: 1px solid;
+    overflow-y: scroll;
+    display: none;
+}
+.log .container .phnum .left .check .title{
+    height: 54px; 
+    background-color: rgb(235, 245, 235);
+}
+.log .container .phnum .left .check .title span{
+    color: #060;
+    display: block;
+    font-size: 16.38px;
+    font-weight: 700;
+    padding-top: 21px;
+    margin-left: 17px;
+}
+.log .container .phnum .left .check .checkbox{
+    background-color: white;
+    padding: 15px;
+}
+.log .container .phnum .left .check .checkbox li{
+    border: 1px solid rgb(228, 230, 229);
+    height: 46px;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+.log .container .phnum .left .check .checkbox li:nth-child(1){
+    margin-top: 18px;
+}
+.log .container .phnum .left .check .checkbox li .han{
+    font-size: 14px;
+    display: block;
+    margin-top: 17px;
+    float: left;
+    font-weight: 700;
+    color: #494949;
+}
+.log .container .phnum .left .check .checkbox li .num{
+    color: #aaa;
+    font-size: 14px;
+    display: block;
+    margin-top: 17px;
+    float: right;
+}
+
+.log .container .phnum .left .check .checkbox li.select .han,.log .container .phnum .left .check .checkbox li.select .num{
+    color: #42bd56;
+}
+
+.log .container .phnum .import{
+    float: left;
+}
+.log .container .phnum .import input{
+    height: 40px;
+    border: 1px solid rgb(228, 230, 229);
+    width: 287px;
+    border-left: none;
+}
+
+
+
+
+
+.log .container .right .code{
+    position: relative;
+    margin-top: 12px;
+
+}
+
+.log .container .right .code input{
+    width: 348px;
+    height: 40px;
+    border: 1px solid rgb(228, 230, 229);
+    padding-right: 3px;
+}
+.log .container .right .code a{
+    position: absolute;
+    color: #41ac52;
+    right: 9px;
+    top: 16px;
+}
+
+
+
+.log .container .right .login {
+    height: 43px;
+    background-color: rgba(66,189,86,.5);
+}
+.log .container .right .login a{
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+}
+.log .container .right .error{
+    margin-top: 15px;
+}
+.log .container .right .error a{
+    float: right;
+}
+.log .container .right .line{
+    height: 1px;
+    border-top: 1px solid rgb(228, 230, 229);
+    margin-top: 15px;
+}
+
+.log .container .right .other{
+    height: 63px;
+}
+.log .container .right .other .end{
+    margin-top: 20px;
+}
+.log .container .right .other span{
+    color: #9b9b9b;
+}
+.log .container .right .other i{
+    margin:0 10px;
+}
+
+/* con总体设计 */
+.con{
+    height: auto;
+}
+.con:nth-child(even){
+    background-color: #f7f7f7;
+}
+.con .part{
+    width: 935px;
+    margin: 0 auto;
+}
+
+/* 热点内容 */
+
+
+.con .font{
+    color: #37a;
+    font-size: 12px;
+}
+
+.con .side .font{
+    font-size: 14px;
+}
+.con .tips{
+    color: #999;
+    font-size: 12px;
+}
+
+.con .part ul .news_list{
+    line-height: 1.62;
+    margin-bottom: 20px;
+}
+.con .title{
+    color: #072;
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+.con .part .title a{
+    color: #37a;
+    font-size: 12px;
+}
+/* 热点内容 */
+.con .part .main{
+    float: left;
+}
+.con .part .main .title{
+    margin-bottom: 17px;
+}
+
+/* 左边的内容 */
+.con .part .main .left{
+    height: 383px;
+    width: 379px;
+    float: left;
+}
+.con .part .main .left ul li{
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 15px;
+}
+/* 右边的内容 */
+.con .part .main .right{
+    width: 275px;
+    float: left;
+}
+
+
+
+
+/* side部分 */
+.con .part .side{
+    float: right;
+    width: 250px;
+}
+.con .part .side .ad img{
+    width: 250px;
+    height: 125px;
+}
+.con .part .side .news .main ul .news_list .tips{
+    display: block;
+}
+
+/* part总体设计 */
+
+.con .part{
+    padding-top: 40px;
+}
+.con .part .leftmenu{
+    width: 120px;
+    float: left;
+    color: #27a;
+    font-size: 24px;
+}
+.con .part .rightmenu{
+    float: right;
+    width: 269px;
+}
+.con .part .midmenu{
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+
+/* 豆瓣时间 */
+
+
+
+.con .part .leftmenu h2{
+    margin-bottom: 12px;
+}
+.con .part .leftmenu h2 a:hover{
+    background-color: #37a;
+    color: white;
+}
+
+.con .part .midmenu .title{
+    margin-bottom: 20px;
+}
+.con .part .midmenu .title h2{
+    display: inline-block;
+}
+
+.con .part .midmenu .introduce .book li{
+    width: 100px;   
+    display: inline-block;
+    margin-right: 63px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    /* 基线相关 */
+    vertical-align:top;
+}
+.con .part .midmenu .introduce .book li:nth-child(5),.con .part .midmenu .introduce ul li:nth-child(10){
+    margin-right: 0;
+}
+.con .part .midmenu .introduce .book li .introduce_img{
+    height:141px ;
+}
+.con .part .midmenu .introduce .book li .introduce_a{
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 15px;
+} 
+.con .part .midmenu .introduce .book li .introduce_a:hover{
+    background-color: #37a;
+    color: white;
+}
+.con .part .midmenu .introduce .book li span{
+    display: block;
+    text-align: center;
+}
+
+
+
+/* 电影 */
+
+
+.con .part .leftmenu ul .left_font{
+    font-size: 14px;
+    line-height: 1.62;
+    margin-top: 5px;
+}
+.con .part .leftmenu ul .left_font a:hover{
+    background-color: #37a;
+    color: white;
+}
+.con .part .midmenu .introduce ul li .name{
+    margin-bottom: 4px;
+}
+.con .part .midmenu .introduce ul li .score{
+    text-align: center;
+    margin-bottom: 4px;
+}
+.con .part .midmenu .introduce ul li .ticket{
+    display: inline-block;
+    margin-left: 12px;
+    background-color: #1c8bd0;
+    color: white;
+    padding: 2px 10px;
+}
+
+.con .part .midmenu .introduce ul li .score span{
+    display: inline-block;
+}
+.con .part .midmenu .introduce ul li .score .star{
+    background: url("./../img/star.png") no-repeat;
+    height: 11px;
+    width: 55px;
+}
+.con .part .midmenu .introduce ul li .introduce_movie{
+    height:141px ;
+    margin-bottom: 10px;
+}
+.con .part .midmenu .introduce ul li .introduce_name{
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+}
+.con .part .midmenu .introduce ul li .introduce_name:hover{
+    background-color: #37a;
+    color: white;
+}
+.con .part .midmenu .introduce .movie li{
+    width: 100px;   
+    display: inline-block;
+    margin-right: 33px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    /* 基线相关 */
+    vertical-align:top;
+}
+
+.con .part .rightmenu .top{
+    margin-bottom: 39px;
+}
+.con .part .rightmenu .type li{
+    display: inline-block;
+    width: 48px;
+    height: 19px;
+}
+.con .part .rightmenu .type li a:hover{
+    background-color: #37a;
+    color: white;
+}
+.con .part .rightmenu .list li{
+    display: list-item;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+.con .part .rightmenu .list li span{
+    color: #111;
+    margin-right: 10px;
+}
+.con .part .rightmenu .list li a:hover{
+    background-color: #37a;
+    color: white;
+}
+
+
+
+

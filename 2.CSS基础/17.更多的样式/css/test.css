@@ -1,0 +1,14 @@
+div{
+    width: 1000px;
+    height: 300px;
+    border: 2px solid;
+    background-image: url(./../../15.定位练习/img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+/* body{
+    background-image: url(./../../15.定位练习/img/banner.jpeg);
+} */

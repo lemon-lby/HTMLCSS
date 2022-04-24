@@ -1,0 +1,5 @@
+a{
+    /* 继承父元素 */
+    color: inherit;
+    text-decoration: none;
+}

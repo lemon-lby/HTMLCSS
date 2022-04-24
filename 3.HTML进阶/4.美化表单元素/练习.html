@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .radiochecked{
+            width: 12px;
+            height: 12px;
+            border: 1px solid #999;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+        
+        }
+        input[type="radio"]:checked+.radiochecked{
+            border-color: #008c8c;
+        }
+        input[type="radio"]:checked~label{
+            color: #008c8c;
+        }
+        input[type="radio"]:checked+.radiochecked::after{
+            content: "";
+            display: block;
+            width: 5px;
+            height: 5px;
+            background: #008c8c;
+            border-radius: 50px;
+            margin-left: 3.5px;
+            margin-top: 3.5px;
+        }
+        input[type="radio"]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input id="radmale" name="gender" type="radio">
+        <span class="radiochecked"></span>
+        <label for="radmale">
+            <span>男</span>
+        </label>  
+    </div>
+    <div>
+        <input id="radfemale" name="gender" type="radio">
+        <span class="radiochecked"></span>
+        <label for="radfemale">
+            <span>女</span>
+        </label>
+    </div>
+</body>
+</html>

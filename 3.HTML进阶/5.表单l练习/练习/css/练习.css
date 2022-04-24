@@ -1,0 +1,81 @@
+.container .title{
+    width: 1224px;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 38px;
+    border-bottom: 1px solid #dcdfe6;
+    height: 24px;
+}
+.container .title h2{
+    margin: 30px auto;
+}
+.container .title span{
+    background-color: white;
+    margin-bottom: 43px;
+}
+.container .formarea{
+    margin: 0 auto;
+    width: 530px;
+    position: relative;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    height: 50px;
+    border:1px solid #dcdfe6;
+    border-radius: 3px;
+    padding:0 1em;
+}
+.container .formarea .formitem{
+    margin: 63px 0;
+    font-size: 14px;
+}
+
+.container .formarea .formitem .area,.container .formarea .formitem .num{
+    float: left;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 63px;
+}
+.container .formarea .formitem .area .first{
+    height: 50px;
+    width: 175px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 17px;
+
+}
+.container .formarea .formitem .area ul{
+    border: 1px solid red;
+    position: absolute;
+    z-index: 1;
+    width: 175px;
+    max-height: 50px;
+    overflow-y: scroll;
+    display: none;
+}
+.container .formarea .formitem .num{
+    width: 355px;
+}
+
+
+button{
+    height: 40px;
+    background-color: #00a1d6;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button.code{
+    position: absolute;
+    right: -26px ;
+    top: 237px ;
+}
+
+
+
+.container .formarea .read{
+    margin: -40px auto  ;
+}
